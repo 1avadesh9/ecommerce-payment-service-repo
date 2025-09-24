@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 @Data   //consists of @Getter, @Setter, @RequiredArsConstructor, @ToString, @EqualsAndHashCode, @NotNull
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "TBL_PAYMENT")
+@Table(name = "TBL_PAYMENT", schema = "ECOMMERCE_PAYMENT_USER")
 public class Payment 
 {
   @Id
